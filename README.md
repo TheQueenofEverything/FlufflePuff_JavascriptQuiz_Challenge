@@ -15,7 +15,7 @@ Project name:
 
 Project type:
 
-    Software program
+    Software program that can run on multiple devices
    
 
 Programming languages used:
@@ -24,21 +24,24 @@ Programming languages used:
 
 Project duration (total):
 
-    74 hours
+    81 hours
 
 Project start date/end date:
 
-    01/12/2022 / 01/17/2022
+    01/11/2022 / 01/17/2022
     
 Project submission date:
 
-    01/17/2022
+    01/18/2022
 
 Project goal:
 
+    Entertaining Online Quiz to test Javascript knowledge.
     
 
 Project description:
+
+    This project generates pre-stored multiple choice questions. It is a responsive user interface that runs in the browser and features HTML and CSS powered by     JavaScript.
 
     
 Project challenges:
@@ -47,5 +50,5 @@ Project challenges:
 
 Features to implement in the future:
 
-    Improvements can be implemented in CSS for aesthetic purposes
+    Improvements can be implemented in CSS for aesthetic purposes.
     
