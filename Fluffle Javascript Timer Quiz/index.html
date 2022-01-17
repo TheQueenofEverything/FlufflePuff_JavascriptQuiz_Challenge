@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    
+</head>
+<body>
+<header>
+   <h1>Javascript Timed Quiz...with Fluffle Puff!</h1> 
+</div>
+<img src="assets/fluffle(1).png" width = "100" height = "100" style="float: center; 
+margin-left: 400px; alt="A fluffy furry cartoon character.">
+</div>
+</header>
+    <!--a section to start the quiz-->
+    <div class="home-box custom-box">
+        <h3>Welcome to the Fluffle Javascript Quiz!</h3>
+        <p>Total number of questions: <span class="total-question"> 7</span></p>
+        <p>
+            Instructions: You have 75 seconds to answer each question. If your answer is wrong you will lose 10 seconds. Press the start button to
+            begin to Fluffle! Good luck!
+        </p>
+        <button type="button" class="btn" onclick="QuizStart()">Start</button>
+    </div>
+
+    <!-- Card section for questions and options -->
+    <div class="quiz-box custom-box hide">
+        <div id="TimeLabel">TIME</div>
+        <div class="box-header">
+            <div class="question-number"></div> 
+           <spn class="remainingTime">75</span>
+        </div>
+        
+        <div class="question-text">
+        </div>
+        <div class="option-container">
+        </div>
+        <div class="next-question-btn">
+            <button type="button" class="btn" id="nextBtn" onclick="next()" disabled>Next</button>
+        </div>
+        <hr>
+        <div class="answers-indicator">
+            <div class="answers-status">
+            </div>
+        </div>
+       
+    </div>
+    <!-- Result section to show the outcome of the Quiz -->
+    <div class="result-box custom-box hide">
+        <h1>Quiz Results</h1>
+        <table>
+            <tr>
+                <td>Remaining Time</td>
+                <td><span class="RemainingTime"></span></td>
+            </tr>
+
+            <tr>
+                <td>Correct</td>
+                <td><span class="total-correct"></span></td>
+            </tr>   
+            <tr>
+                <td>Wrong</td>
+                <td><span class="total-wrong"></span></td>
+            </tr>  
+                                    
+        </table>
+        <!-- Submiting form -->
+        <section class="quiz-section">
+            <h1>Fluffle Quiz completed &#128149; </h1>
+            <p id="score-text">You scored: <span id="yourScore"></span></p>
+            <form id="submit-score">
+              <label for="initials">Enter initials:</label>
+              <input type="text" id="initials" placeholder="FS">
+              <p id="error-message"></p>
+            <hr>
+            <div class="buttonForm">
+                
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+        </section>
+
+    </div>
+    <!-- This section will will show the scores  -->
+    <div class="score-section custom-box hide" >
+            <h1>Highscores</h1>
+            <table id="highscores-table">
+              <tr>
+                <th>Rank</th>
+                <th>Score</th>
+                <th>Initials</th>
+              </tr>
+            </table>
+            <div class="buttonForm" id="highscore-buttons">
+                <button type="button" class="btn" id="clear-highscores">Clear Highscores</button>
+                <button type="button" class="btn" onclick="tryAgain()">Try Again</button>
+            </div>
+    </div>
+            <!-- javascript links and quesions  -->
+
+            <script src="./assets/js/quesions.js"></script>
+            <script src="./assets/js/script.js"></script>
+</body>
+</html>
