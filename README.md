@@ -49,8 +49,3 @@ Features to implement in the future:
 
     Improvements can be implemented in CSS for aesthetic purposes
     
-    
-Screenshot:
-<img width="940" alt="Screenshot" src="https://user-images.githubusercontent.com/65464431/149701946-90bc3a6b-6171-4560-8043-d7d76785b1c2.png">
-
-
