@@ -24,7 +24,7 @@ Programming languages used:
 
 Project duration (total):
 
-    81 hours
+    68 hours
 
 Project start date/end date:
 
@@ -46,7 +46,8 @@ Project description:
     
 Project challenges:
 
-    Understanding the logic inside the timer management 
+    Understanding the logic inside the timer management function. 
+    
 
 Features to implement in the future:
 
