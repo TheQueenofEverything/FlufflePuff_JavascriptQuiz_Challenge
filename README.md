@@ -53,3 +53,9 @@ Features to implement in the future:
 
     Improvements can be implemented in CSS for aesthetic purposes.
     
+    
+Screenshot:
+
+<img width="1072" alt="FlufflePuffScreenshot" src="https://user-images.githubusercontent.com/65464431/149982361-f58c90cf-0411-4eba-9945-8584218da033.png">
+
+    
