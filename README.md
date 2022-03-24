@@ -3,16 +3,12 @@
 Project URL: 
 
     https://thequeenofeverything.github.io/FlufflePuff_JavascriptQuiz_Challenge/Fluffle%20Javascript%20Timer%20Quiz/index.html
-  
-
-GitHub repository URL:
-
-    https://github.com/TheQueenofEverything/FlufflePuff_JavascriptQuiz_Challenge
 
 
 Project name:
 
     Fluffle Puff Javascript Quiz Challenge
+    
 
 Project type:
 
