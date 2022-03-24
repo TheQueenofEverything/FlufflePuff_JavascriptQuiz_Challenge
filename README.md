@@ -1,8 +1,8 @@
 # FlufflePuff_JavascriptQuiz_Challenge
 
-Project URL: 
+Deployed Application:
 
-    https://thequeenofeverything.github.io/FlufflePuff_JavascriptQuiz_Challenge/Fluffle%20Javascript%20Timer%20Quiz/index.html
+    https://mmvrstudio.github.io/FlufflePuff_JavascriptQuiz_Challenge/Fluffle%20Javascript%20Timer%20Quiz/
 
 
 Project name:
